@@ -5,3 +5,8 @@ public class Intro {
         System.out.println("Java");
     }
 }
+
+/*
+    /* comment 1
+    // /* this comment is okay
+*/
