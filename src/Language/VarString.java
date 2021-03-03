@@ -9,4 +9,7 @@ public class VarString {
         helloMessage = "Hello, World!";
         System.out.println(helloMessage);
     }
+
+    // static String helloMessage;
+    // Placing class variable declarations at the beginning of the class isn't mandatory.
 }
