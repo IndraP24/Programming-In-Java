@@ -1,5 +1,6 @@
 package Language;
 
+// Using variable arguments and displaying all of them
 // You can put any number of arguments and check this out
 
 public class VarArgs {
