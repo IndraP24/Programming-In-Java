@@ -1,5 +1,7 @@
 package Language;
 
+// Throw Exceptions through the main method
+
 public class ThrowException {
     public static void main (String[] args) throws Throwable {
         try {
