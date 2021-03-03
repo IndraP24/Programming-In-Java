@@ -1,5 +1,7 @@
 package Language;
 
+//
+
 public class Constant {
     public static void main (String[] args) {
         final int FEET_PER_YARD = 3;
