@@ -1,13 +1,18 @@
 package Language;
-// Run this through cmd/terminal
-// 1. javac VarArgs.java
-// If compiled successfully,
-// 2. java VarArgs arg1 arg2 arg3 ....
+
 // You can put any number of arguments and check this out
+
 public class VarArgs {
-    public static void main (String... args) {
-        for (String arg : args) {
+    public void Var (int... args) {
+        for (int arg : args) {
             System.out.println(arg);
         }
     }
+
+    public static void main (String[] args) {
+        VarArgs v = new VarArgs();
+        v.Var(12, 13, 113);
+        v.Var(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+    }
+
 }
